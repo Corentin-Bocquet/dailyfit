@@ -13,7 +13,7 @@ const App = {
   weather: null,
   generator: null,
   ui: null,
-  settings: null,
+  settings: null, // Final update
 
   async init() {
     // Initialize modules
