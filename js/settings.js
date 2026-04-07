@@ -7,7 +7,7 @@ export class SettingsManager {
     showOnboardingStep(step) {
         const container = document.getElementById('onboarding-container');
         if (!container) return;
-        
+         // Settings Logic Update
         let html = '';
         switch(step) {
             case 1:
